@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -556,9 +557,53 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\sb-admin-2.css" />
     <Content Include="Content\timeline.css" />
+    <Content Include="css\checkbox.min.css" />
+    <Content Include="css\woocommerce-layout.css" />
+    <Content Include="css\custom-style.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\fonts.css" />
+    <Content Include="css\font\font-awesome.min.css" />
+    <Content Include="css\form.min.css" />
+    <Content Include="css\front.css" />
+    <Content Include="css\jquery-ui.min.css" />
+    <Content Include="css\pe-icon-7-stroke.css" />
+    <Content Include="css\sb-instagram.css" />
+    <Content Include="css\settings.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\woocommerce.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="js\add-to-cart.min.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\button.min.js" />
+    <Content Include="js\cart-fragments.min.js" />
+    <Content Include="js\comment-reply.min.js" />
+    <Content Include="js\core.min.js" />
+    <Content Include="js\custom-script.js" />
+    <Content Include="js\datepicker.min.js" />
+    <Content Include="js\icon-box.js" />
+    <Content Include="js\jquery-migrate.min.js" />
+    <Content Include="js\jquery.blockUI.min.js" />
+    <Content Include="js\jquery.cookie.min.js" />
+    <Content Include="js\jquery.form.min.js" />
+    <Content Include="js\jquery.themepunch.revolution.min.js" />
+    <Content Include="js\jquery.themepunch.tools.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\main.min.js" />
+    <Content Include="js\revolution.extension.navigation.min.js" />
+    <Content Include="js\revolution.extension.slideanims.min.js" />
+    <Content Include="js\sb-instagram.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="js\spinner.min.js" />
+    <Content Include="js\styling.min.js" />
+    <Content Include="js\tour.js" />
+    <Content Include="360\skin\tour2.xml" />
+    <Content Include="360\skin\vtourskin.xml" />
+    <Content Include="js\widget.min.js" />
+    <Content Include="js\woocommerce.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="bower_components\bootstrap-social\.bower.json" />
@@ -864,6 +909,24 @@
     <Content Include="Content\less\mixins.less" />
     <Content Include="Content\less\sb-admin-2.less" />
     <Content Include="Content\less\variables.less" />
+    <Content Include="WebTemplate.html" />
+    <Content Include="js\jquery.mb-comingsoon.min.js" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\MBNDSwis-Bold.ttf" />
+    <Content Include="fonts\MBNDSwis-Italic.ttf" />
+    <Content Include="fonts\MBNDSwis.ttf" />
+    <Content Include="fonts\opensans-light-webfont.woff" />
+    <Content Include="fonts\opensans-regular-webfont.woff" />
+    <Content Include="fonts\roboto-bold-webfont.woff" />
+    <Content Include="fonts\roboto-light-webfont.woff" />
+    <Content Include="fonts\roboto-medium-webfont.woff" />
+    <Content Include="fonts\roboto-mediumitalic-webfont.woff" />
+    <Content Include="fonts\roboto-regular-webfont.woff" />
+    <Content Include="fonts\revicons.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\flot-data.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
